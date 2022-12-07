@@ -4,15 +4,15 @@
 
 
 Juego j;
-//import processing.sound.*;
+import processing.sound.*;
 
-//SoundFile sonido;
+SoundFile sonido;
 
 void setup() {
   size(600, 600);
   j = new Juego();
-//  sonido = new SoundFile(this, "sonido.mp3"); 
-//  sonido.loop();
+  sonido = new SoundFile(this, "sonido.mp3"); 
+  sonido.loop();
 }
 
 void draw() {
